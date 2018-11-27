@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/main.js"></script>
 </head>
 <body>
@@ -63,13 +65,14 @@
     </div>
 
     <div class="button">
-        <a href="tel:0934538321">
+        <a href="tel:0914702888">
             <img src="assets/images/phone.png" class="animated tada" alt="">
-            <span>0934538321</span>
+            <span>0914702888</span>
         </a>
 
-        <a href="#">
+        <a href="https://www.facebook.com/Hello-Lady-Dưỡng-Trắng-Da-Chống-Lão-Hóa-259819324583397">
             <img src="assets/images/facebook.png" alt="">
+            <span>Fanpage</span>
         </a>
     </div>
 
@@ -90,7 +93,7 @@
 
                         <p class="banner-main_sapo txt wow fadeInRight" data-wow-duration="0.9s">Tự tin nâng bước thành công với làn da không tuổi tươi tắn, <br /> rạng ngời nhờ chiết xuất Lựu Đỏ và Dương Xỉ Trung Mỹ</p>
 
-                        <a href="javascript:void(0);" class="btn wow fadeInRight" data-wow-duration="1s">Mua ngay </a>
+                        <a data-fancybox data-src="#order-popup" href="javascript:void(0);" class="btn wow fadeInRight" data-wow-duration="1s">Mua ngay </a>
                     </div>
                 </div>
             </div>
@@ -213,6 +216,20 @@
             <div class="element-mobile" style="display: none; margin-top: 30px">
                 <img src="assets/images/element-mobile.png" alt="" style="width: 100%">
 
+                <div class="element-mobile-item">
+                    <p class="element-sub txtB">ALPHA LIPOIC ACID</p>
+                    <p class="txt">Có tác dụng chống gốc tự do cường độ cực mạnh, phục hồi hoạt tính chống oxy hoá của vitamin C & E, kích thích sản sinh ra ghutathione trong tế bào. ALA chống lại quá trình hình thành glucose protein nên giúp ngăn ngừa các biểu hiện lão, hoá tái cấu trúc tế bào da, làm giảm tàn nhang, vết nám, đốm nâu...” </p>
+                </div>
+
+                <div class="element-mobile-item">
+                    <p class="element-sub txtB">ALPHA LIPOIC ACID</p>
+                    <p class="txt">Có tác dụng chống gốc tự do cường độ cực mạnh, phục hồi hoạt tính chống oxy hoá của vitamin C & E, kích thích sản sinh ra ghutathione trong tế bào. ALA chống lại quá trình hình thành glucose protein nên giúp ngăn ngừa các biểu hiện lão, hoá tái cấu trúc tế bào da, làm giảm tàn nhang, vết nám, đốm nâu...” </p>
+                </div>
+
+                <a data-fancybox data-src="#element-mobile-popup" href="javascript:;" class="txtB txt" style="margin-top: 30px; display: block">Xem thêm</a>
+            </div>
+
+            <div id="element-mobile-popup" style="display: none">
                 <div class="element-mobile-item">
                     <p class="element-sub txtB">ALPHA LIPOIC ACID</p>
                     <p class="txt">Có tác dụng chống gốc tự do cường độ cực mạnh, phục hồi hoạt tính chống oxy hoá của vitamin C & E, kích thích sản sinh ra ghutathione trong tế bào. ALA chống lại quá trình hình thành glucose protein nên giúp ngăn ngừa các biểu hiện lão, hoá tái cấu trúc tế bào da, làm giảm tàn nhang, vết nám, đốm nâu...” </p>
@@ -386,6 +403,30 @@
         <img src="assets/images/footer.png" alt="">
     </div>
 
-    <a href="#" class="order container-fluid">Đặt mua ngay</a>
+    <a data-fancybox data-src="#order-popup" href="javascript:;" class="order container-fluid">Đặt mua ngay</a>
+
+    <div id="order-popup" style="display: none">
+        <h2>Đặt hàng</h2>
+
+        <input type="text" class="input name" placeholder="Họ và tên">
+        <input type="text" class="input phone" placeholder="Số điện thoại">
+        <textarea class="textarea problem" placeholder="Nhập nội dung mua hàng"></textarea>
+
+        <a href="javascript:;">Đặt mua</a>
+    </div>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5bfd11fa40105007f379c2ed/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </body>
 </html>

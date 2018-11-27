@@ -20,4 +20,44 @@ $(function() {
     })
 
     new WOW().init()
+
+    $('.register-right_form-submit').click(function(e) {
+        e.preventDefault();
+        var name = $(this).parent().find('.register-right_form-input').val(),
+            phone = $(this).parent().find('.register-right_form-input').val(),
+            problem = $(this).parent().find('.register-right_form-textarea').val();
+        $.ajax({
+            url: 'https://docs.google.com/forms/d/e/1FAIpQLSextbP7SUU68rVUtmAeO88sy9KwRZ1GC-AkYYzoGLhwm4EBxw/formResponse',
+            type: 'POST',
+            dataType: "xml",
+            data: {
+                'entry.1097002168': name,
+                'entry.1183130000': phone,
+                'entry.892829659': problem
+            }
+        });
+        setTimeout(function() {
+            alert('Gửi thông tin thành công');
+        }, 1000)
+    })
+
+    $('#order-popup a').click(function(e) {
+        e.preventDefault();
+        var name = $(this).parent().find('.name').val(),
+            phone = $(this).parent().find('.phone').val(),
+            problem = $(this).parent().find('.problem').val();
+        $.ajax({
+            url: 'https://docs.google.com/forms/d/e/1FAIpQLSextbP7SUU68rVUtmAeO88sy9KwRZ1GC-AkYYzoGLhwm4EBxw/formResponse',
+            type: 'POST',
+            dataType: "xml",
+            data: {
+                'entry.1097002168': name,
+                'entry.1183130000': phone,
+                'entry.892829659': problem
+            }
+        });
+        setTimeout(function() {
+            alert('Gửi thông tin thành công');
+        }, 1000)
+    })
 })
