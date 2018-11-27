@@ -748,9 +748,11 @@ header {
   .element-5-visible, .element-6-visible {
     display: none; }
 
-  #element-mobile-popup .element-mobile-item {
+  #element-mobile-popup-1 .element-mobile-item,
+  #element-mobile-popup-2 .element-mobile-item {
     margin-top: 20px; }
-    #element-mobile-popup .element-mobile-item .element-sub {
+    #element-mobile-popup-1 .element-mobile-item .element-sub,
+    #element-mobile-popup-2 .element-mobile-item .element-sub {
       font-size: 20px; } }
 @media (max-width: 425px) {
   .banner-bg {
