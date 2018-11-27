@@ -1,0 +1,40 @@
+header
+  background-color: $white
+  font-family: 'Eurostile Condensed', sans-serif
+  text-transform: uppercase
+  padding-top: 10px
+  padding-bottom: 9px
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 1003
+
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &-item
+    text-align: center
+    flex: 1
+    a
+      display: inline-block
+      color: $blue
+      font-size: 1.09375vw
+      padding: 10px 0
+      position: relative
+      &:after
+        content: ''
+        display: block
+        width: 0
+        height: 3px
+        background-color: rgba($base, 0)
+        position: absolute
+        bottom: 0
+        left: 50%
+    &.active:not(.navbar-logo),
+    &:not(.navbar-logo):hover
+      a:after
+        width: 100%
+        background-color: rgba($base, 1)
+        left: 0
