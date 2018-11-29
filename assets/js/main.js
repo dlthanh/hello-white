@@ -1,4 +1,6 @@
-$(function() {
+$(document).ready(function() {
+    $(this).scrollTop(0);
+
     var firstname = ['Nguyễn', 'Trần', 'Lê', 'Đặng', 'Vũ', 'Phạm', 'Trịnh', 'Bùi'],
         surname = ['Thị', 'Bích', 'Phương', 'Thu',],
         lastname = ['Ngọc', 'Trang', 'Minh', 'Liên', 'Hằng', 'Thúy', 'Thủy', 'Hương'],
@@ -10,9 +12,11 @@ $(function() {
         var noticecity  = city[Math.floor(Math.random() * city.length)];
         $('.notify-name').text(fullname);
         $('.notify-city').text(noticecity);
-        $('.notify-order').text('Đặt ' + Math.floor(Math.random() * 10 + 1) + ' hộp Hello White');
+        $('.notify-order').text('Đặt ' + Math.floor(Math.random() * 8 + 1) + ' hộp Hello White');
         $('.notify-time').text(Math.floor(Math.random() * 10) + ' phút trước');
-        $('.notify').fadeIn(500).delay(3000).fadeOut(300);
+        $('.notify').show().removeClass('flipOutX').addClass('flipInX').delay(3000).queue(function() {
+            $(this).removeClass('flipInX').addClass('flipOutX').dequeue();
+        });
     }
 
     $('.navbar-logo-mobile').click(function() {
@@ -59,5 +63,13 @@ $(function() {
         setTimeout(function() {
             alert('Gửi thông tin thành công');
         }, 1000)
+    })
+
+    $(window).scroll(function() {
+        if($('html, body').scrollTop() > 50) {
+            $('header').addClass('scroll')
+        } else {
+            $('header').removeClass('scroll');
+        }
     })
 })
