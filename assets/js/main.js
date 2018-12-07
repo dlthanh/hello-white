@@ -72,4 +72,23 @@ $(document).ready(function() {
             $('header').removeClass('scroll');
         }
     })
+
+    var video = new Swiper('.video-left', {
+        speed: 600,
+        slidesPerView: 1,
+        autoplay: true,
+        pagination: {
+            el: '.banner-pagination',
+            clickable: true
+        },
+        navigation: {
+            nextEl: '.banner-next',
+            prevEl: '.banner-prev',
+        }
+
+    });
+
+    $('[data-fancybox]').fancybox({
+        buttons: ['close']
+    })
 })
