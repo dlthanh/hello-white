@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a15316a8-0136-4aaf-90ef-acb50398616c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.sass" afterDir="false" />
@@ -21,8 +22,8 @@
       <file leaf-file-name="style.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="560" column="22" selection-start-line="560" selection-start-column="22" selection-end-line="560" selection-end-column="22" />
+            <state relative-caret-position="332">
+              <caret line="557" column="16" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -237,12 +238,12 @@
       <workItem from="1543889046909" duration="774000" />
       <workItem from="1544099081013" duration="21000" />
       <workItem from="1544138963180" duration="2854000" />
-      <workItem from="1544148408365" duration="6908000" />
+      <workItem from="1544148408365" duration="7119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12511000" />
+    <option name="totallyTimeSpent" value="12722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -590,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="560" column="22" selection-start-line="560" selection-start-column="22" selection-end-line="560" selection-end-column="22" />
+        <state relative-caret-position="332">
+          <caret line="557" column="16" selection-start-line="557" selection-start-column="16" selection-end-line="557" selection-end-column="16" />
         </state>
       </provider>
     </entry>
