@@ -666,7 +666,8 @@ header {
     margin-top: 0; }
   .element-left .element-5-visible {
     font-size: 14px;
-    padding: 25px; }
+    padding: 25px;
+    margin-top: -50px; }
     .element-left .element-5-visible:after {
       top: 57%; }
   .element-left .element-6-visible {
