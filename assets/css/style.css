@@ -77,6 +77,7 @@ header {
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 0;
     opacity: 0.9; }
     header.scroll .navbar-logo img {
       width: 50%; }
@@ -658,6 +659,9 @@ header {
   .element-left .element-6-visible:after {
     top: 24%; } }
 @media (max-width: 1366px) {
+  .banner {
+    margin-top: 139px; }
+
   .element-title {
     margin-top: 0; }
   .element-left .element-5-visible:after {
@@ -875,6 +879,8 @@ header {
 
   .element {
     padding-top: 45px; }
+    .element-left * {
+      display: none; }
 
   .footer {
     flex-wrap: wrap; }
