@@ -280,21 +280,23 @@
       -o-transform: scale(1.1)
       transform: scale(1.1)
       & + div
-        visibility: visible
-        opacity: 1
+        .txt
+          visibility: visible
+          opacity: 1
   &-sub
     font-family: 'Eurostile Condensed', sans-serif
     text-transform: uppercase
     font-size: 1.5625vw
     font-weight: 700
   &-content
-    visibility: hidden
-    opacity: 0
-    -webkit-transition: visibility 0s, opacity 0.9s
-    -moz-transition: visibility 0s, opacity 0.9s
-    -ms-transition: visibility 0s, opacity 0.9s
-    -o-transition: visibility 0s, opacity 0.9s
-    transition: visibility 0s, opacity 0.9s
+    .txt
+      visibility: hidden
+      opacity: 0
+      -webkit-transition: visibility 0s, opacity 0.9s
+      -moz-transition: visibility 0s, opacity 0.9s
+      -ms-transition: visibility 0s, opacity 0.9s
+      -o-transition: visibility 0s, opacity 0.9s
+      transition: visibility 0s, opacity 0.9s
   &-1
     position: absolute
     top: 10%
@@ -485,7 +487,7 @@
   padding: 24px
   z-index: 1004
   display: none
-  font-family: 'Eurostile Condensed', sans-serif
+  font-family: 'HelveticaNeue', sans-serif
   line-height: 18px
   animation-duration: 1s
 

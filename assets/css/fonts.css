@@ -13,3 +13,7 @@
     src: url('../fonts/Eurostile-Demi.ttf') format('truetype');
     font-weight: 500;
 }
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue.ttf') format('truetype');
+}
