@@ -78,7 +78,7 @@ $(document).ready(function() {
         slidesPerView: 1,
         autoplay: true,
         pagination: {
-            el: '.banner-pagination',
+            el: '.swiper-pagination',
             clickable: true
         },
         navigation: {
