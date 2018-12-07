@@ -747,7 +747,7 @@ header {
       font-size: 16px;
       width: 150px; }
     .banner-main_sapo {
-      display: none; }
+      margin-bottom: 15px; }
 
   .register {
     padding: 60px 30px; }
