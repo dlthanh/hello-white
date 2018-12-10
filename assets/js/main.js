@@ -82,9 +82,9 @@ $(document).ready(function() {
             clickable: true
         },
         navigation: {
-            nextEl: '.banner-next',
-            prevEl: '.banner-prev',
-        }
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
     });
 

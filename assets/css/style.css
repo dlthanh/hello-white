@@ -318,7 +318,7 @@ header {
       margin: 25px 0; }
 
 .element {
-  padding-top: 90px; }
+  padding-top: 30px; }
   .element .container-large:after {
     content: "";
     display: block;
@@ -367,7 +367,7 @@ header {
     text-transform: uppercase;
     font-size: 2.1875vw;
     line-height: 1.3;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 10px; }
     .element-title .hello {
       font-size: 2.1875vw; }
@@ -860,6 +860,8 @@ header {
       .button a span {
         display: none; } }
 @media (max-width: 520px) {
+  .banner-main_sapo {
+    font-size: 14px; }
   .banner-bg {
     width: 300%;
     margin-left: -200%; }
