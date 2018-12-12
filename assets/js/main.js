@@ -91,4 +91,17 @@ $(document).ready(function() {
     $('[data-fancybox]').fancybox({
         buttons: ['close']
     })
+
+    $('.navbar-item').click(function(e) {
+        e.preventDefault();
+        $('.navbar-item').removeClass('active');
+        $(this).addClass('active');
+        var link = $(this).find('a').attr('href');
+        if(link == '#home') {
+            $('html, body').animate({scrollTop: 0}, 600, 'swing');
+        } else {
+            var offsettop = $(link).offset().top - 100;
+            $('html, body').animate({scrollTop: offsettop}, 600, 'swing');
+        }
+    })
 })
