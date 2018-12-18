@@ -27,9 +27,9 @@ $(document).ready(function() {
 
     $('.register-right_form-submit').click(function(e) {
         e.preventDefault();
-        var name = $(this).parent().find('.register-right_form-input').val(),
-            phone = $(this).parent().find('.register-right_form-input').val(),
-            problem = $(this).parent().find('.register-right_form-textarea').val();
+        var name = $(this).parent().find('#name').val(),
+            phone = $(this).parent().find('#phone').val(),
+            problem = $(this).parent().find('#problem').val();
         $.ajax({
             url: 'https://docs.google.com/forms/u/1/d/e/1FAIpQLScDRy0sfKe38E6T-yvMeTabWRKcUvnhorejlrjAxe2nGxDM7A/formResponse',
             type: 'POST',
