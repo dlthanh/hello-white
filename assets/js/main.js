@@ -31,13 +31,13 @@ $(document).ready(function() {
             phone = $(this).parent().find('.register-right_form-input').val(),
             problem = $(this).parent().find('.register-right_form-textarea').val();
         $.ajax({
-            url: 'https://docs.google.com/forms/d/e/1FAIpQLSextbP7SUU68rVUtmAeO88sy9KwRZ1GC-AkYYzoGLhwm4EBxw/formResponse',
+            url: 'https://docs.google.com/forms/u/1/d/e/1FAIpQLScDRy0sfKe38E6T-yvMeTabWRKcUvnhorejlrjAxe2nGxDM7A/formResponse',
             type: 'POST',
             dataType: "xml",
             data: {
-                'entry.1097002168': name,
-                'entry.1183130000': phone,
-                'entry.892829659': problem
+                'entry.285596625': name,
+                'entry.535558636': phone,
+                'entry.1245030159': problem
             }
         });
         setTimeout(function() {
@@ -51,13 +51,13 @@ $(document).ready(function() {
             phone = $(this).parent().find('.phone').val(),
             problem = $(this).parent().find('.problem').val();
         $.ajax({
-            url: 'https://docs.google.com/forms/d/e/1FAIpQLSextbP7SUU68rVUtmAeO88sy9KwRZ1GC-AkYYzoGLhwm4EBxw/formResponse',
+            url: 'https://docs.google.com/forms/u/1/d/e/1FAIpQLScDRy0sfKe38E6T-yvMeTabWRKcUvnhorejlrjAxe2nGxDM7A/formResponse',
             type: 'POST',
             dataType: "xml",
             data: {
-                'entry.1097002168': name,
-                'entry.1183130000': phone,
-                'entry.892829659': problem
+                'entry.285596625': name,
+                'entry.535558636': phone,
+                'entry.1245030159': problem
             }
         });
         setTimeout(function() {
